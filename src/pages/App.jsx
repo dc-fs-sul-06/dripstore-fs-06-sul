@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header/Header";
 import { SideBySide } from "../components/SideBySide";
 import { BurgerMenu } from "../components/BurgerMenu/BurgerMenu";
+import { HighlightsSection } from "../components/HighlightsSection";
 import { FeaturedProductList } from "../components/featuredProductList/FeatureProductList";
 
 
@@ -18,6 +19,7 @@ export function App() {
       <div className="bg-[#F5F5F5]">
         <Hero />
       </div>
+      <HighlightsSection />
       <FeaturedProductList title={"Produtos em alta"} link={"Ver todos →"} />
       <SideBySide
         image={"air-jordan.png"}
